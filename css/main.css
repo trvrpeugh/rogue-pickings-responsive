@@ -2,14 +2,25 @@
 	font-family: 'Wisdom Script';
 	src: url('../fonts/wisdom-script.otf') format('opentype');
 }
+/* ==========================================================================
+   Trevor's custom styles
+   ========================================================================== */
+html {
+	height: 100%;
+	width: 100%;
+	font-size: 1em;
+	line-height: 1.4;
+}
 
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 }
 
 .container{
-	max-width: 1200px;
+	max-width: 374px;
 	margin: 0 auto;
+	width: 100%;
+	padding: 30px;
 }
 
 h1,
@@ -44,35 +55,47 @@ header {
 	height: 110px;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
 }
 
 header h1 {
 	float: left;
 	margin: 0;
 	padding: 38px 0;
+	width: 100%;
+
 }
 header h1 span {
 	color: #77a466;
 }
 
 header nav {
-	float: right;
+	float: left;
 	padding: 46px 0;
+	line-height: 2.5em;
+	width: 100%
 }
+
 header nav ul {
 	margin: 0;
 	padding: 0;
+	width: 100%;
 }
 header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
 	padding: 0 10px;
-	display: inline;
+	display: flex;
+	text-align: center;
 }
 header nav ul li a{
 	text-decoration: none;
 	color:#77a466;
+	width:100%;
 }
 
 /*The widths are in a percentage!*/
@@ -80,11 +103,13 @@ header nav ul li a{
 .bottom-section {
 	margin: 0 auto;
 	clear: both;
+	width: 100%;
 }
 
 .main-image {
 	height: auto;
 	float: left;
+	width: 100%;
 }
 .main-image img {
 	width: 100%;
@@ -113,6 +138,7 @@ header nav ul li a{
 	height: auto;
 	float: left;
 	border-top: 1px solid #eee;
+	width: 100%;
 }
 
 .section-one h4 {
