@@ -14,6 +14,7 @@ html {
 
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	justify-content: center;
 }
 
 .container{
@@ -21,6 +22,7 @@ body {
 	margin: 0 auto;
 	width: 100%;
 	padding: 30px;
+	justify-content: center;
 }
 
 h1,
@@ -104,6 +106,7 @@ header nav ul li a{
 	margin: 0 auto;
 	clear: both;
 	width: 100%;
+	justify-content: center;
 }
 
 .main-image {
@@ -182,6 +185,8 @@ footer {
 	margin: 0 auto;
 	clear: both;
 	text-align: center;
+	justify-content: center;
+	width: 100%;
 }
 footer span {
 	font-family: 'Wisdom Script', cursive;
