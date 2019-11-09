@@ -20,12 +20,13 @@ body {
 	align-items: center;
 }
 
-.container{
-	max-width: 374px;
-	margin: 0 auto;
-	width: 100%;
-	padding: 30px;
-	justify-content: center;
+.container {
+max-width: 1200px;
+width: 90%;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-flow: row wrap;
 }
 
 h1,
@@ -57,20 +58,22 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	height: 110px;
+	height: auto;
 	border-bottom: 3px solid #77a466;
 	margin: 0 auto;
 	width: 100%;
 	justify-content: center;
 	align-items: center;
 	text-align: center;
+	float: left;
 }
 
 header h1 {
 	float: left;
 	margin: 0;
-	padding: 38px 0;
+	padding: 15px 0;
 	width: 100%;
+	border-bottom: 3px solid #77a466;
 
 }
 header h1 span {
@@ -196,4 +199,42 @@ footer span {
 	text-transform: lowercase;
 	color: #77a466;
 	font-size: .875em;
+}
+
+/*				TABLET STYLES				*/
+@media all and (min-width:768px) and (max-width: 1199px) {
+
+.bottom-section {
+	display: flex;
+	}
+
+.section-one,
+.section-two,
+.section-three {
+	width: 33%;
+	height: auto;
+	float: left;
+	border-top: 1px solid #eee;
+	}
+
+
+}
+
+
+@media all and (min-width:1200px) {
+    /* Desktop styles here */
+
+  header nav ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+	.section-one,
+	.section-two,
+	.section-three {
+		width: 33%;
+		height: auto;
+		float: left;
+		border-top: 1px solid #eee;
+		}
 }
